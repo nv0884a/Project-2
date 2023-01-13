@@ -9,7 +9,7 @@
 * We used the Extract, Transform, and Load process to to create a unique dataset 
 * We created a schemata using PostgreSQL 
 
-###Extract:
+Extract:
 * Using Kaggle we found and extracted the following data sets:
     * https://www.kaggle.com/datasets/airbnb/boston?select=listings.csv
     * https://www.kaggle.com/datasets/airbnb/boston?select=reviews.csv
@@ -17,7 +17,7 @@
     * https://www.kaggle.com/datasets/airbnb/seattle?select=reviews.csv
 
 
-###Transform:
+Transform:
 * Using Jupyter Notebook:
     * Import CSVs
     * Created DataFrames using Pandas
@@ -28,7 +28,7 @@
     * The new CSV files can be created by running the code in the Data.ipynb file
     * The new CSV files are not in GitHub due to the enormous size of the file 
 
-###Load:
+Load:
 * Using PostgreSQL:
     * Created two tables with all of the relevant columns for the two datasets to be imported into databases
     * We ran into some issues when we first imported the data, mainly due to the various numbers of commas that were in the datasets which would cause the import to     fail due to the dataset reading into new columns.
